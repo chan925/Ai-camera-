@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #121212;
+  color: white;
+}
+.camera-container {
+  position: relative;
+  display: inline-block;
+}
+video, canvas {
+  border-radius: 10px;
+  width: 640px;
+  height: 480px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
